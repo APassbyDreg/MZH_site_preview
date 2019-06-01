@@ -11,7 +11,7 @@ a {
 #banner {
     background: black;
     width: 100%;
-    height: 15vh;
+    height: 16vh;
     color: white;
     overflow: hidden;
 }
@@ -46,7 +46,7 @@ a {
     height: 4vh;
     color: white;
     position: absolute;
-    top: 11vh;
+    top: 12vh;
 }
 
 .sections {
