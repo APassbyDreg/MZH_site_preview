@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        function darken() {
+            document.getElementById("blackOverlay").style.opacity = 0.5;
+        }
+        function lighten() {
+            document.getElementById("blackOverlay").style.opacity = 0.4;
+        }
+    </script>
+</head>
+
+<body style="overflow: hidden">
+    <div id="BG">
+        <span id="blackOverlay"></span>
+        <img src="img/BG.jpg" alt="背景" id="BGimg">
+    </div>
+    <div id="logo">
+        <img src="img/Logo.png" alt="Logo" id="LOGOimg" onmouseover="darken()" onmouseout="lighten()">
+    </div>
+    <a href="view/BNU_main.html" onmouseover="darken()" onmouseout="lighten()">
+        <div id="navButtom">
+            探索北京师范大学
+        </div>
+    </a>
+    <div id="myWork">
+        <a href="view/my_work.html">查看我的其它作业</a>
+    </div>
+</body>
+
+</html>
