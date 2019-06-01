@@ -51,11 +51,11 @@
     font-size: 2vh;
     line-height: 5vh;
     opacity: 0.9;
+    transition: 0.5s all ease;
 }
 
 #navButtom:hover {
     opacity: 1;
-    transition: 0.5s all ease;
 }
 
 #myWork {
@@ -68,9 +68,9 @@
     text-align: center;
     font-size: 1vh;
     opacity: 0.6;
+    transition: 0.5s all ease;
 }
 
 #myWork:hover {
     opacity: 1;
-    transition: 0.5s all ease;
 }
