@@ -35,11 +35,6 @@ a {
     opacity: 0.9;
 }
 
-#bannerBG:hover {
-    opacity: 1;
-    transition: 0.5s all ease;
-}
-
 #bannerSections {
     background: #0b4286;
     width: 100%;
