@@ -8,6 +8,20 @@ a {
     color: white;
 }
 
+#goHome {
+    width: calc(4vh);
+    height: 4vh;
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    opacity: 0.5;
+    transition: 0.5s all ease;
+}
+
+#goHome:hover {
+    opacity: 0.8;
+}
+
 #banner {
     background: black;
     width: 100%;
