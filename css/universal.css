@@ -28,6 +28,8 @@ a {
     height: 16vh;
     color: white;
     overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 
 #bannerImg {
@@ -73,4 +75,31 @@ a {
 .sections:hover {
     background: white;
     color: black;
+}
+
+
+#whiteOverlay {
+    height: 84vh;
+    width: 100%;
+    position: fixed;
+    top: 16vh;
+    left: 0;
+    z-index: -5;
+    background-color: white;
+    opacity: 0.75;
+}
+
+#BG {
+    height: 84vh;
+    width: 100%;
+    position: fixed;
+    top: 12vh;
+    left: -5%;
+    z-index: -10;
+}
+
+#BG img {
+    filter: blur(20px);
+    width: 120%;
+    min-height: 90vh;
 }

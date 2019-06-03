@@ -9,7 +9,7 @@ body {
 
 #content {
     width: 70%;
-    margin: 8vh 15% 8vh;
+    margin: 24vh 15% 8vh;
 }
 
 #view {
@@ -18,7 +18,7 @@ body {
     height: 32vh;
     overflow: hidden;
     margin-top: 12vh;
-    box-shadow: 5px 5px 20px #999999;
+    box-shadow: 0.8vh 0.8vh 2vh #444444;
     border-radius: 1vh;
     transition: all ease 1s;
 }
@@ -34,35 +34,18 @@ body {
 #intro {
     float: left;
     text-indent: 2em;
+    line-height: 2.7vh;
+    font-size: 2vh;
     margin-top: 6vh;
     margin-left: 10%;
     width: 50%;
     text-align: justify;
+    color: black;
+    opacity: 1;
+    transition: 0.5s all ease;
 }
 
-#blackOverlay {
-    height: 84vh;
-    width: 100;
-    position: fixed;
-    top: 16vh;
-    left: 0;
-    z-index: -5;
-    background-color: black;
-    opacity: 0.75;
-}
-
-#BG {
-    height: 84vh;
-    width: 100;
-    position: fixed;
-    top: 12vh;
-    left: -5%;
-    z-index: -10;
-}
-
-#BG img {
-    filter: blur(25px);
-    width: 120%;
-    min-height: 90vh;
+#intro:hover {
+    opacity: 0.8;
 }
 
