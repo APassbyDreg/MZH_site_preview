@@ -6,6 +6,12 @@
 .timeBlock {
     width: 100%;
     min-height: 12vh;
+    background-color: rgba(71, 146, 216, 0);
+    transition: 1s all ease;
+}
+
+.timeBlock:hover {
+    background-color: rgba(71, 146, 216, 0.1);
 }
 
 .timeline {
@@ -13,6 +19,7 @@
     height: 12vh;
     width: 5%;
     float: left;
+    padding-left: 5%;
 }
 
 .timeline img {
@@ -24,12 +31,12 @@
     float: right;
     font-size: 2vh;
     text-align: justify;
-    opacity: 1;
+    opacity: 0.75;
     transition: 0.5s all ease;
 }
 
 .event:hover {
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .time {

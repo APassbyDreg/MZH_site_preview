@@ -22,7 +22,12 @@ body {
     text-align: center;
     line-height: 5vh;
     font-size: 3.5vh;
-    opacity: 0.75;
+    opacity: 0.6;
+    transition: 1s all ease;
+}
+
+#title:hover {
+    opacity: 0.8;
 }
 
 #view {
