@@ -24,6 +24,12 @@
     float: right;
     font-size: 2vh;
     text-align: justify;
+    opacity: 1;
+    transition: 0.5s all ease;
+}
+
+.event:hover {
+    opacity: 0.6;
 }
 
 .time {
