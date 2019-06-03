@@ -33,7 +33,7 @@
     margin-left: 20%;
     margin-top: 4vh;
     margin-bottom: 6vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 25px;
     transition: 0.5s all ease;
     text-align: center;
@@ -42,7 +42,7 @@
 }
 
 .showBox:hover {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 40px;
 }
 
