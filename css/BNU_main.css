@@ -9,7 +9,20 @@ body {
 
 #content {
     width: 70%;
-    margin: 24vh 15% 8vh;
+    margin: 25vh 15% 8vh;
+}
+
+#title {
+    width: 60%;
+    background: black;
+    color: white;
+    margin: 0 auto 0;
+    height: 5vh;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 3.5vh;
+    opacity: 0.75;
 }
 
 #view {
