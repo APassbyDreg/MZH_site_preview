@@ -6,4 +6,4 @@ plz view the site at [https://apassbydreg.github.io/MZH_site_preview](https://ap
 
 ---
 
-previous files are removed due to the finish of the project
+previous files are removed due to the finish of the project, this repo is temporary closed
