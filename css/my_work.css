@@ -8,7 +8,10 @@
 }
 
 #BG img {
-    width: 105%;
+    min-height: 105vh;
+    min-width: 105%;
+    max-width: 125%;
+    max-height: 125vh;
     filter: blur(10px);
     margin-left: -2%;
     margin-top: -2vh; 
@@ -47,7 +50,7 @@
     width: 20%;
     margin-left: 40%;
     margin-bottom: 4vh;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     transition: 0.5s all ease;
     text-align: center;
@@ -57,7 +60,7 @@
 }
 
 .linkBox:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 25px;
 }
 
