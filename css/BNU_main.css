@@ -2,3 +2,30 @@ a {
     color: white;
     font-weight: bold;
 }
+
+#content {
+    width: 70%;
+    margin: 8vh auto 8vh;
+}
+
+#view {
+    float: left;
+    width: 35%;
+    max-height: 25vh;
+    overflow: hidden;
+    margin-top: 10vh;
+    box-shadow: 5px 5px 20px #999999;
+}
+
+#view img {
+    width: 100%;
+}
+
+#intro {
+    float: left;
+    text-indent: 2em;
+    margin-top: 10.5vh;
+    margin-left: 12vh;
+    width: 40%;
+    text-align: justify;
+}
